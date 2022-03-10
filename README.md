@@ -1,7 +1,6 @@
 # defi-exchange repository
 
 <br />
-<br />
 
 # Table of Contents
 - [Technology Stack](#technology-stack)
@@ -14,12 +13,12 @@
 - react.js
 - solidity
 - NodeJS.
+- <br />
 
-This is decentalized finance exchange Built  with only one asset pair (Eth <> Crypto Dev).
+This is a decentralized finance exchange Built with only one asset pair (Eth &  Crypto Dev token).
+This Decentralized Exchange takes a fee of 1% on swaps.
+When a user adds liquidity, they are given Crypto Dev LP tokens.
 
-This  Decentralized Exchange take a fees of 1% on swaps.
-
-When  a user adds liquidity, they are  given Crypto Dev LP tokens (Liquidity Provider tokens).
 
 Crypto Dev  LP tokens is be given propotional to the Ether user is willing to add to the liquidity.
 
