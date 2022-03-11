@@ -24,7 +24,7 @@ Crypto Dev  LP tokens is be given propotional to the Ether user is willing to ad
 
 ## Installation
 1. Install [`Node JS`](https://nodejs.org/en/).
-2. To clone, run `git clone https://github.com/UltraBaesic/Gofer-webapp.git`.
+2. To clone, run `https://github.com/johnsonAyo/defi-exchange.git`.
 3. `cd` into the root of the **project directory**.
 4. Run `npm install` on the terminal to install dependecies.
 
