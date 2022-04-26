@@ -55,9 +55,8 @@ export default function Home() {
   // Amount that the user wants to swap
   const [swapAmount, setSwapAmount] = useState("");
   // This keeps track of the number of tokens that the user would recieve after a swap completes
-  const [tokenToBeRecievedAfterSwap, setTokenToBeRecievedAfterSwap] = useState(
-    zero
-  );
+  const [tokenToBeRecievedAfterSwap, setTokenToBeRecievedAfterSwap] =
+    useState(zero);
   // Keeps track of whether  `Eth` or `Crypto Dev` token is selected. If `Eth` is selected it means that the user
   // wants to swap some `Eth` for some `Crypto Dev` tokens and vice versa if `Eth` is not selected
   const [ethSelected, setEthSelected] = useState(true);
@@ -514,7 +513,10 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by &nbsp; 
+        <a href="https://me-johnsonayo.vercel.app/">
+          <strong>Johnson Afuye</strong>{" "}
+        </a>
       </footer>
     </div>
   );
